@@ -1,0 +1,32 @@
+	.fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .fish
+    {
+      position: absolute;
+      top: 445px;
+      left: 354px;
+     		-webkit-animation: mymove 1s infinite; /* Safari 4.0 - 8.0 */
+		animation: mymove 5s infinite;
+    }
+    .rotateimg360 {
+	  -webkit-transform:rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes mymove {
+		from {left: 3140px;}
+		to {top: 282px;left: 50px;}
+		}
+
+		@keyframes mymove {
+		from {left: 354px;}
+		to {top: 503px;left: 85px;}
+		}
